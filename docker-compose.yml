@@ -1,0 +1,8 @@
+version: '3'
+services:
+  viss-test:
+    container_name: viss-test
+    restart: always
+    image: ${registryAddress}/${registryUsername}/${imageName}
+    ports:
+      - "16123:80"

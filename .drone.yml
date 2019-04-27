@@ -1,0 +1,15 @@
+pipeline:
+  push-to-registry:
+    image: plugins/docker
+    username:
+      from_secret: username
+    password:
+      from_secret: password
+    repo: 
+      from_secret: repo
+    registry:
+      from_secret: registry
+    tags:
+      - latest
+    when:
+      branch: master
