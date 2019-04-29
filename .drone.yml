@@ -1,14 +1,11 @@
 pipeline:
   push-to-registry:
     image: plugins/docker
-    username:
-      from_secret: username
+    username: visnz
     password:
       from_secret: password
-    repo: 
-      from_secret: repo
-    registry:
-      from_secret: registry
+    repo: registry.guediao.top/visnz/hexo-guediao
+    registry: registry.guediao.top
     tags:
       - latest
     when:
