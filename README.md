@@ -1,7 +1,6 @@
-
-https://github.com/visnz/viss 项目范例
-
-# repo结构图
+# 粿条网站源码repo
+[![Build Status](https://drone.guediao.top/api/badges/visnz/hexo-guediao/status.svg)](https://drone.guediao.top/visnz/hexo-guediao)
+## repo结构图
 ```sh
 ├─ Dockerfile           # [ 看这里 ] 描述了从repo生成博客后台文件，并打包的nginx的过程
 ├─ .drone.yml           # [ 看这里 ] 拉去本项目，并执行Dockerfile的程序，推送到registry
