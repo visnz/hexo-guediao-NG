@@ -3,6 +3,6 @@ services:
   viss-test:
     container_name: viss-test
     restart: always
-    image: ${registryAddress}/${registryUsername}/${imageName}
+    image: registry.guediao.top/visnz/visn-test
     ports:
       - "16123:80"
