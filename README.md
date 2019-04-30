@@ -1,5 +1,12 @@
 # 粿条网站源码repo
 [![Build Status](https://drone.guediao.top/api/badges/visnz/hexo-guediao/status.svg)](https://drone.guediao.top/visnz/hexo-guediao)
+
+## 开发环境
+```sh
+# node
+npm install hexo --save
+```
+
 ## repo结构图
 ```sh
 ├─ Dockerfile           # [ 看这里 ] 描述了从repo生成博客后台文件，并打包的nginx的过程
