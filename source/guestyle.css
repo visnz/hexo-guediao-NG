@@ -1,0 +1,15 @@
+tag{
+    margin:3px;
+    padding: 2px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    color:#666
+}
+tag:before{
+    content: attr(title) "";
+}
+iframe{
+    margin:20px
+}
