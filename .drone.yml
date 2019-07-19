@@ -10,3 +10,14 @@ pipeline:
       - latest
     when:
       branch: master
+  dev-test:
+    image: plugins/docker
+    username: visnz
+    password:
+      from_secret: password
+    repo: registry.guediao.top/visnz/hexo-guediao-dev
+    registry: registry.guediao.top
+    tags:
+      - latest
+    when:
+      branch: dev
