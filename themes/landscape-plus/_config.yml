@@ -1,7 +1,8 @@
 # Header
 menu:
   主页: /
-  归档: /archives
+  总览: /archives/index.html
+  关于我们: /about/index.html
 rss: /atom.xml
 
 # Content
@@ -10,13 +11,13 @@ fancybox: false
 mathjax: false
 
 # Sidebar
-sidebar: right
+sidebar: left
 widgets:
-- category
-- tag
-- tagcloud
-- archive
 - recent_posts
+- tagcloud
+- tag
+- category
+- archive
 - links
 
 # Links
