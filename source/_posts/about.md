@@ -2,9 +2,7 @@
 title: 团队介绍
 categories: ["关于"]
 tags: ["关于"]
-weight: 0
-updated: 2019-07-16
-date: 2017-03-06
+date: 2019-07-16
 ---
 
 ![](https://guediao.oss-cn-shenzhen.aliyuncs.com/images/title.webp)
