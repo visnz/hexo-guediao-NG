@@ -1,8 +1,6 @@
 version: '3'
 services:
-  viss-test:
-    container_name: viss-test
-    restart: always
-    image: registry.guediao.top/visnz/visn-test
+  hexo-guediao-ng:
+    image: registry.cn-shenzhen.aliyuncs.com/visnz-self/hexo-guediao-ng
     ports:
       - "16123:80"
