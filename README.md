@@ -9,3 +9,7 @@
 npm install hexo --save
 ```
 
+# 备注
+
+cover image尺寸：16:9
+

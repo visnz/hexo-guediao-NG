@@ -6,7 +6,7 @@
 title: 粿条青年
 subtitle: 一群有趣的潮汕青年人
 description: 探索未知的生活方式
-keywords:
+keywords: 
 author: 水桶
 language: zh-CN
 timezone: Asia/Shanghai
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape-plus
+theme: edinburgh
 
 feed:
     type: atom
@@ -88,3 +88,8 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Header
+menu:
+  关于我们: /about
+  # 主要业务: /business
